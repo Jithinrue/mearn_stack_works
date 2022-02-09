@@ -1,0 +1,15 @@
+div{
+    width: 50%;
+    height: 30%;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+div p{
+    color:blanchedalmond;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: burlywood;
+}

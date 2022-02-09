@@ -1,0 +1,13 @@
+div{
+    width: 20%;
+    background-color: cadetblue;
+    float: left;
+    border: darkblue;
+    border-radius: 50pxu;
+}
+img{
+    width: 88%;
+    height: 100%;
+    border: darkblue;
+    border-radius: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color: rgb(3, 0, 5);
+            width: 100%;
+            background-color: blueviolet;
+        }
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(240, 240, 240);
+        }
+    </style>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content ">
+        <div class="modal-header text-center pl-5">
+          <h5 class="modal-title text-center ms-5" style="color: rgb(121, 65, 173)" id="exampleModalLabel"> <b>Get training quote for free</b>  </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ps-5 pe-5">
+
+          <form action="">
+              <input type="text" placeholder="Name" style="width: 100%;"><br><br>
+              <input type="text" placeholder="Email" style="width: 100%;"><br><br>
+              <input type="text" placeholder="Phone"style="width: 100%;"><br><br>
+              <select name="Cource interested in" style="width: 100%;" id="Cource interested in" value="Cource interested in">
+                Cource interested in
+               <option value="Cource interetsed in">Seclect the cource interested in</option>
+
+              </select><br><br>
+              <input type="text" placeholder="City" style="width: 100%;"><br><br>
+             <textarea placeholder=" comments" name="" id="" cols="52" rows="5"></textarea>
+               </form>
+              </div>
+              <div class="container text-left p-5">
+            <button  type="button1" class="button1" style="text-align:left ; ">Submit </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
